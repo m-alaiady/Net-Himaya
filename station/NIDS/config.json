@@ -1,0 +1,22 @@
+{
+    "Low": {
+        "packet_count_threshold": 50,
+        "packet_size_threshold": 100000,
+        "arp_request_threshold": 50
+    },
+    "Moderate": {
+        "packet_count_threshold": 100,
+        "packet_size_threshold": 500000,
+        "arp_request_threshold": 100
+    },
+    "High": {
+        "packet_count_threshold": 150,
+        "packet_size_threshold": 2000000,
+        "arp_request_threshold": 150
+    },
+    "Critical": {
+        "packet_count_threshold": 200,
+        "packet_size_threshold": 10000000,
+        "arp_request_threshold": 200
+    }
+}
